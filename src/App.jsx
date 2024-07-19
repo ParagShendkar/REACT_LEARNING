@@ -1,9 +1,14 @@
+import Learn from "./Learn"
 
 function App() {
- 
+ const username = "parag here";
 
   return (
-    <h1>Learning react on chai with code: Parag</h1>
+    <>
+        <Learn />
+        <h1>This is my code {username}</h1>
+    </>
+    
   )
 }
 
